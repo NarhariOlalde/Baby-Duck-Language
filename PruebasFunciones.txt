@@ -1,0 +1,28 @@
+program patito;
+var a1: int;
+
+
+void emptyFunction() [
+    {
+        print("Hello World");
+    }
+];
+void emptyFunctionParam(floatNumber: float, intNumber: int) [
+        var number1: int;
+        var number2: float;
+    {
+        print(floatNumber);
+        print(number2);
+    }
+];
+
+main 
+{ 
+    emptyFunction();
+    emptyFunctionParam(2.0, 1);
+
+    a1 = 12 + 21;
+    print(a1);
+}
+
+end

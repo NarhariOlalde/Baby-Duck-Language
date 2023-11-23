@@ -1,0 +1,33 @@
+program patito;
+var a1, x, c: int; 
+var y, d, f: float;
+
+
+main {
+    a1 = 0;
+    print(a1);
+    a1 = 4;
+    x = (1 + 2);
+    if(a1 != 3){
+        a1 = 10;
+    };
+
+    if(a1 > 2){
+        x = 15;
+    } else{
+        x = 20;
+    };
+
+
+    y = (2.0);
+    c = x + a1 + 5;
+    d = 2/5;
+    f = 2.0 * d * a1;
+    print(a1);
+    print(x);
+    print(c);
+    print(y);
+    print(d);
+    print(f);
+}
+end
